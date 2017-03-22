@@ -1,5 +1,6 @@
 # EncryptUtil
-android AES\DES\DES3\RSA加密
+
+android AES\DES\DES3\RSA加密，详情见博客http://blog.csdn.net/u011697203/article/details/64921882
 
 ```
 使用AES\DES\DES3
