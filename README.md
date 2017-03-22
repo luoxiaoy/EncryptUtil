@@ -5,8 +5,9 @@ android AES\DES\DES3\RSA加密
 使用AES\DES\DES3
 
 String strTestData = "MainActivity";
+
 //加密
-String AesEncryptECB = EncryUtils.AesDesEncrypt(strTestData,AES_KEY,"",EncryUtils.Encryption.AES, EncryUtils.EncryptMode.ECB);
+EncryUtils.AesDesEncrypt(strTestData,AES_KEY,"",EncryUtils.Encryption.AES, EncryUtils.EncryptMode.ECB);
 //解密
 EncryUtils.AesDesDecrypt(AesEncryptECB,AES_KEY,"", EncryUtils.Encryption.AES,EncryUtils.EncryptMode.ECB)
 
